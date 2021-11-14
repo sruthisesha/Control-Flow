@@ -2,11 +2,11 @@
 
 import random
 
-playerName = "Galina"
+playerName = "Sruthi"
 playerQuestion = "Will there be any more snowfall in New York for winter 2020? ❄️" 
 
 randomNumber = random.randint(1, 9)
-# print(randomNumber)
+print(randomNumber)
 
 if randomNumber == 1:
   eightBall = "Yes - definitely"
@@ -30,8 +30,4 @@ else:
   eightBall = "Error"
 
 print(playerName, "\'s Question:", playerQuestion)
-
-# Challenge:
-# playerName.isEmpty ? print("Question: \(playerQuestion)") : print("\(playerName) asks: \(playerQuestion)")
-
 print("🎱:", eightBall)
